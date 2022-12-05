@@ -9,4 +9,8 @@ public class Library {
     public String BookList(){
         return "BookList";
     }
+    @PostMapping("/bookEntry")
+    public String BookEntry(){
+        return "BookEntry";
+    }
 }
