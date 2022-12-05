@@ -17,4 +17,8 @@ public class Library {
     public String BookSearch(){
         return "BookSearch";
     }
+    @PostMapping("/bookDelete")
+    public String BookDelete(){
+        return "BookDelete";
+    }
 }
