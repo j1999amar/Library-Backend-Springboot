@@ -13,4 +13,8 @@ public class Library {
     public String BookEntry(){
         return "BookEntry";
     }
+    @PostMapping("/bookSearch")
+    public String BookSearch(){
+        return "BookSearch";
+    }
 }
